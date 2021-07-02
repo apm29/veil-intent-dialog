@@ -1,0 +1,40 @@
+{
+  "version": "0.0.1",
+  "name": "veil-intent-dialog",
+  "description": "JS呼出对话框,Alert/Confirm",
+  "author": "apm29",
+  "license": "MIT",
+  "private": false,
+  "main": "src/components/index.js",
+  "keywords": [
+    "dialog",
+    "对话框",
+    "confirm",
+    "alert"
+  ],
+  "files": [
+    "src/components"
+  ],
+  "homepage": "https://github.com/apm29/veil-intent-dialog",
+  "bugs": {
+    "url": "https://github.com/apm29/veil-intent-dialog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:apm29/veil-intent-dialog.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "veil-transitions": "^0.0.3",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.3.8"
+  }
+}
