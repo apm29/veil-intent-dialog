@@ -1,9 +1,9 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.5",
   "name": "veil-intent-dialog",
   "description": "JS呼出对话框,Alert/Confirm",
   "author": "apm29",
-
+  "license": "MIT",
   "main": "dist/veil-intent-dialog.ssr.js",
   "browser": "dist/veil-intent-dialog.esm.js",
   "module": "dist/veil-intent-dialog.esm.js",
@@ -36,7 +36,7 @@
     "url": "git@github.com:apm29/veil-intent-dialog.git"
   },
   "dependencies": {
-    "veil-transitions": "^0.0.5"
+    "veil-transitions": "^0.0.6"
   },
 
   "devDependencies": {
